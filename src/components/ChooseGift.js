@@ -17,10 +17,9 @@ function ChooseGift() {
         setGift(gifts[index]);
     }
     return (
-        <div>
-            <p className='text-muted'>{gift || 'Chưa có thưởng'}</p>
-            <button className='mr-3'>Test</button>
-            <Button variant='primary' onClick={RandomGift}>Random</Button>{''}
+        <div style={{ padding: 30 }}>
+            <h1>{gift || 'Chưa có thưởng'}</h1>
+            <Button variant='outline-primary' onClick={RandomGift}>Random</Button>{''}
         </div>
     );
 }
