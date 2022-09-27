@@ -4,14 +4,14 @@ const initalState = 0;
 const UP_ACTION = 'up';
 const DOWN_ACTION = 'down'
 
-const reducer = (action, state) => {
+const reducer = (state, action) => {
     switch (action) {
         case UP_ACTION:
             return state + 1
         case DOWN_ACTION:
             return state - 1
         default:
-            throw new Error('invalid action')
+            return state
     }
 }
 function UseReducer() {
