@@ -5,7 +5,11 @@
 // import CheckBox from "./components/CheckBox";
 // import ToDoList from "./components/ToDoList";
 // import Content from "./components/Content";
-import List from "./components/List";
+// import List from "./components/List";
+// import UseRef from "./components/UseRef"
+// import UseCallback from "./components/UseCallback";
+// import UseMemo from "./components/UseMemo";
+import UseReducer from "./components/UseReducer";
 function App() {
   //   const [show, setShow] = useState(false);
   //   const handleToggle = () => {
@@ -24,8 +28,11 @@ function App() {
     //   <button onClick={handleToggle}>Toggle</button>
     //   {show && <Avatar />}
     // </div>
-    <List />
-
+    // <List />
+    // <UseRef />
+    // <UseCallback />
+    // <UseMemo />
+    <UseReducer />
   );
 }
 
